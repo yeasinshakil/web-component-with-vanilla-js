@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Styling for the component */
+
+        .my-component-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .my-component-close {
+            cursor: pointer;
+            font-size: 40px;
+            color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- The web component -->
+    <my-component>
+        <div class="my-component-content">
+            <div>
+                <h2>HTML Content</h2>
+                <p>This is some sample HTML content.</p>
+            </div>
+            <div class="my-component-close">&times;</div>
+
+        </div>
+    </my-component>
+
+    <script src="/myComponent.js"></script>
+</body>
+
+</html>
